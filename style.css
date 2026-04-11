@@ -1,0 +1,80 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 0;
+  overflow: auto; 
+} 
+
+#ui {
+    z-index: 10; 
+}
+
+.btn-active {
+    box-shadow: 0 0 10px rgba(255,255,255,0.7);
+    transform: scale(1.05);
+}
+
+.info-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 260px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  backdrop-filter: blur(6px);
+}
+
+.rotation-panel {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 260px;
+  background: rgba(198, 198, 204, 0.75);
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  backdrop-filter: blur(6px);
+}
+
+.hidden {
+  display: none;
+}
+
+button.disabled {
+    opacity: 0.5;
+    pointer-events: none; 
+}
+
+#btn-exit {
+    background-color: red; 
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+#btn-stationRotation {
+    background-color: green; 
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+#hiddenButtons {
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    margin-left: 12px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    z-index: 10;
+}

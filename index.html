@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/01.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space-Station</title>
+  </head>
+  <body>
+    <canvas class="threejs"></canvas>
+
+    <div id="ui" class="position-absolute top-0 start-0 m-3">
+      <button id="btn-overview" class="btn btn-primary mb-2">Stanica</button>
+      <button id="btn-antenna" class="btn btn-primary mb-2">Antena</button>
+      <button id="btn-panels" class="btn btn-primary mb-2">Solarni paneli</button>
+      <button id="btn-satellite" class="btn btn-primary mb-2">Satelit</button>
+    </div>
+
+    <div id="hiddenButtons">
+      <button id="btn-stationRotation" class="hidden">Rotiraj Stanicu</button>
+      <button id="btn-exit" class="hidden">Exit</button>
+    </div>
+
+    <div id="rotationPanel" class="rotation-panel hidden">
+      <h3 id="rotationTitle"></h3>
+      <p id="rotationText"></p>
+    </div>
+
+    <div id="infoPanel" class="info-panel hidden">
+      <h3 id="infoTitle"></h3>
+      <p id="infoText"></p>
+    </div>
+    
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
