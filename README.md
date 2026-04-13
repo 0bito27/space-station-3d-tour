@@ -56,7 +56,7 @@ npm run dev
 * HDRI environment: 3DArt
 * Graphics: Caluya Design 
 
-## Demo
+## Video
 
 ![Demo](assets/demo.gif)
 
