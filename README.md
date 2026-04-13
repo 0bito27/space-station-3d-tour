@@ -34,7 +34,7 @@ Due to GitHub file size limitations, the 3D model is not included in the reposit
 ### Steps to run:
 
 1. Download the model:
-   
+   https://github.com/0bito27/space-station-3d-tour/releases/download/v1.0/sci_fi_space_station.glb
 
 2. Place it in:
    `/public/models/`
